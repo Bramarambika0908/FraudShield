@@ -2,9 +2,9 @@ import joblib
 
 # LOAD MODEL AND SCALER
 
-model = joblib.load("C:/Users/vadlu/AIML/projects/FraudShield/models/fraud_model.pkl")
+model = joblib.load("models/fraud_model.pkl")
 
-scaler = joblib.load("C:/Users/vadlu/AIML/projects/FraudShield/models/scaler.pkl")
+scaler = joblib.load("models/scaler.pkl")
 
 # TRAINED FEATURE NAMES
 
