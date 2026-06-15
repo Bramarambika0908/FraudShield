@@ -1,6 +1,6 @@
 import joblib 
 
-pipeline=joblib.load("C:/Users/vadlu/AIML/projects/FraudShield/models/fraud_upi_model.pkl")
+pipeline=joblib.load("models/fraud_upi_model.pkl")
 
 expected_columns = pipeline.feature_names_in_
 
