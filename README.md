@@ -11,6 +11,7 @@ URL: https://www.kaggle.com/datasets/rohit8527kmr7518/digital-payment-fraud-dete
 
 URL: https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
 isFraud: Indicates whether the transaction is fraudulent (1) or not (0)
+
 ### Model
 **Credit Card Fraud Detection Model**
 Algorithm: XGBoost Classifier
@@ -20,6 +21,7 @@ Models Evaluated: Logistic Regression, Support Vector Machine (SVC), XGBoost
 Selected Model: XGBoost (chosen for superior fraud detection performance)
 Output: Fraud prediction with probability-based risk scoring
 Model File: fraud_model.pkl
+
 **UPI Fraud Detection Model**
 Algorithm: Support Vector Classifier (SVC)
 Kernel: RBF (Radial Basis Function)
